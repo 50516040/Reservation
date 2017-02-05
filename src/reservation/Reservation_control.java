@@ -253,7 +253,7 @@ public class Reservation_control {
 					String date = rs.getString("date");
 					String start = rs.getString("start_time");
 					String end = rs.getString("end_time");
-					res += "user: "+ user +"   "+ facility + "   "+date+"   "+start+" -- "+end+"\n";
+					res += "user: "+ user +"   "+ facility + "   "+ date +"   "+ start +" -- "+ end +"\n";
 					exist = true;
 				}
 				if(!exist){
